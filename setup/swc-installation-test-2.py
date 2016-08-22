@@ -83,20 +83,20 @@ __version__ = '0.1'
 # Comment out any entries you don't need
 CHECKS = [
 # Shell
-    'virtual-shell',
+    #'virtual-shell',
 # Editors
-    'virtual-editor',
+    #'virtual-editor',
 # Browsers
-    'virtual-browser',
+    #'virtual-browser',
 # Version control
     'git',
-    'hg',              # Command line tool
+    #'hg',              # Command line tool
     #'mercurial',       # Python package
-    'EasyMercurial',
+    #'EasyMercurial',
 # Build tools and packaging
-    'make',
-    'virtual-pypi-installer',
-    'setuptools',
+    #'make',
+    #'virtual-pypi-installer',
+    #'setuptools',
     #'xcode',
 # Testing
     'nosetests',       # Command line tool
@@ -104,8 +104,8 @@ CHECKS = [
     'py.test',         # Command line tool
     'pytest',          # Python package
 # SQL
-    'sqlite3',         # Command line tool
-    'sqlite3-python',  # Python package
+    #'sqlite3',         # Command line tool
+    #'sqlite3-python',  # Python package
 # Python
     'python',
     'ipython',         # Command line tool
